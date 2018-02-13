@@ -51,9 +51,9 @@ function processV1Request (request, response) {
     'input.welcome': () => {
       // Use the Actions on Google lib to respond to Google requests; for other requests use JSON
       if (requestSource === googleAssistantRequest) {
-        sendGoogleResponse('Hello, Welcome to my Dialogflow agent!'); // Send simple response to user
+        sendGoogleResponse('Hi! I am Remi your digital assistance!'); // Send simple response to user
       } else {
-        sendResponse('Hello, Welcome to my Dialogflow agent!'); // Send simple response to user
+        sendResponse('Hi! I am Remi your digital assistance!'); // Send simple response to user
       }
     },
     // The default fallback intent has been matched, try to recover (https://dialogflow.com/docs/intents#fallback_intents)
